@@ -10,4 +10,3 @@ if __name__ == "__main__":
     for index in range(num_attributes):
         if not module_attributes[index].startswith("__"):  # Check if the name doesn't start with '__'
             print(module_attributes[index])  # Print the name
-
