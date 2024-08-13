@@ -4,7 +4,7 @@ if __name__ == "__main__":
     """Print the number of command-line arguments and list them."""
     import sys
 
-    num_args = len(sys.argv) - 1  # Number of command-line arguments excluding the script name
+    num_args = len(sys.argv) - 1
     if num_args == 0:
         print("0 arguments.")
     elif num_args == 1:
