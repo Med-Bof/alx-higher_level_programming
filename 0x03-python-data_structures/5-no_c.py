@@ -2,6 +2,7 @@
 
 def no_c(my_string):
 
-    new_string = my_string.replace("c", "")
-    new_string = new_string.replace("C", "")
+    new_string = ''.join([
+        char for char in my_string if char not in ['C', 'c']
+    ])
     return new_string
